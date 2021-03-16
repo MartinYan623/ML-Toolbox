@@ -59,6 +59,3 @@ def standardize_scale(data, attrs):
         data = pd.concat([data, temp], axis=1)
     return data
 
-
-data = pd.read_csv('/Users/martin_yan/Desktop/员工离职预测训练赛/pfm_train.csv')
-data = robust_scale(data, ['Age', 'YearsWithCurrManager'])
