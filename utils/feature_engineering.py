@@ -70,6 +70,4 @@ def kbins_discretizer(data, attr, bins, encode='ordinal', strategy='quantile'):
     return data
 
 
-# data = pd.read_csv('/Users/martin_yan/Desktop/员工离职预测训练赛/pfm_train.csv')
-# data = kbins_discretizer(data, 'Age', 5)
-# print(data['Age'])
+
